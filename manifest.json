@@ -1,0 +1,33 @@
+{
+   "homepage_url": "https://www.sumsg.com",
+   "default_locale": "en",
+   "action": {
+      "default_icon": {
+         "48": "assets/icon.png",
+         "32": "assets/icon.png",
+         "24": "assets/icon.png"
+      },
+      "default_title": "__MSG_ExtName__"
+   },
+   "content_scripts": [
+      {
+         "js": [
+            "scripts/main.js"
+         ],
+         "matches": [
+            "*://*.zhihu.com/*"
+         ],
+         "run_at": "document_idle"
+      }
+   ],
+   "description": "__MSG_ExtDescription__",
+   "icons": {
+      "128": "assets/icon.png",
+      "16": "assets/icon.png",
+      "32": "assets/icon.png",
+      "48": "assets/icon.png"
+   },
+   "manifest_version": 3,
+   "name": "__MSG_ExtName__",
+   "version": "1.0.0"
+}

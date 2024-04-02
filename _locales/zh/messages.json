@@ -1,0 +1,10 @@
+{
+  "ExtDescription": {
+    "Description": "Extension Description",
+    "message": "屏蔽知乎登录弹窗"
+  },
+  "ExtName": {
+    "Description": "Extension name",
+    "message": "Kill ZHIHU Login Modal"
+  }
+}
